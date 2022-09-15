@@ -17,7 +17,7 @@ const Experience = () => {
             ? (
               <div className='block md:hidden'>
                 <p className='text-black dark:text-white text-lg md:text-xl font-semibold'>Responsibilities</p>
-                <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+                <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                   <li className='py-1 text-black dark:text-white text-lg'>Worked on building the challenging front-end.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Developed and deployed web applications from scratch to finish.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Getting insight on block chain and NFT.</li>
@@ -37,7 +37,7 @@ const Experience = () => {
             ? (
               <div className='block md:hidden'>
                 <p className='text-black dark:text-white text-lg md:text-xl font-semibold'>Responsibilities</p>
-                <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+                <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                   <li className='py-1 text-black dark:text-white text-lg'>Ability to understand and apply new knowledge quickly.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Responsible for building performant web applications.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Commitment to test driven development in an agile environment.</li>
@@ -57,7 +57,7 @@ const Experience = () => {
             ? (
               <div className='block md:hidden'>
                 <p className='text-black dark:text-white text-lg md:text-xl font-semibold'>Responsibilities</p>
-                <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+                <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                   <li className='py-1 text-black dark:text-white text-lg'>Part of core development team of <b><a href="https://www.practiskills.com/">Practiskills.com</a></b>.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Built multiple reusable components.</li>
                   <li className='py-1 text-black dark:text-white text-lg'>Responsible for writing good quality and neat codes.</li>
@@ -73,7 +73,7 @@ const Experience = () => {
         {
           activeExperience === 1
             ? (
-              <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+              <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                 <li className='py-1 text-black dark:text-white text-lg'>Worked on building the challenging front-end.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Developed and deployed web applications from scratch to finish.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Getting insight on block chain and NFT.</li>
@@ -85,7 +85,7 @@ const Experience = () => {
         {
           activeExperience === 2
             ? (
-              <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+              <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                 <li className='py-1 text-black dark:text-white text-lg'>Ability to understand and apply new knowledge quickly.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Responsible for building performant web applications.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Commitment to test driven development in an agile environment.</li>
@@ -97,7 +97,7 @@ const Experience = () => {
         {
           activeExperience === 3
             ? (
-              <ul style={{ "list-style-type": "disc" }} className='py-2 pl-6'>
+              <ul style={{ "listStyleType": "disc" }} className='py-2 pl-6'>
                 <li className='py-1 text-black dark:text-white text-lg'>Part of core development team of <b><a href="https://www.practiskills.com/">Practiskills.com</a></b>.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Built multiple reusable components.</li>
                 <li className='py-1 text-black dark:text-white text-lg'>Responsible for writing good quality and neat codes.</li>
