@@ -1,7 +1,8 @@
 {
   "name": "bhatsudesh",
   "version": "0.1.0",
-  "private": true,
+  "repository": "git@github.com-personal:bhatsudesh/bhatsudesh.git",
+  "author": "Sudesh <sudeshbhat2113@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
