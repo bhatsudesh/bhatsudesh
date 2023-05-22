@@ -1,5 +1,5 @@
 import React from 'react';
-import sudesh from '../images/sudesh.jpeg';
+import sudesh from '../images/sudesh.JPG';
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
           <p className='text-base text-gray-500 py-2'>Full-Stack Developer</p>
           <div className='flex gap-4 items-center pt-5'>
             <a
-              href="https://drive.google.com/file/d/1z6cqo_rZwmC4fD_NYUTacTLNSJI0rqHs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bd_lr7n0MK0RcDrZzA01V3DuOFr6CK2L/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >

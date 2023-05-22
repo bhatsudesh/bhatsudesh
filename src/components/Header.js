@@ -26,7 +26,7 @@ const Header = () => {
         <div className="flex gap-4 md:gap-6 lg:gap-8 items-center font-light text-sm md:text-base lg:text-lg">
           <Link to="experience" className="cursor-pointer" smooth={true} duration={1000}>Experience</Link>
           <a
-            href="https://drive.google.com/file/d/1z6cqo_rZwmC4fD_NYUTacTLNSJI0rqHs/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bd_lr7n0MK0RcDrZzA01V3DuOFr6CK2L/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >
