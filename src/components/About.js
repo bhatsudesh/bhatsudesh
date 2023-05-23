@@ -5,7 +5,7 @@ const About = () => {
     <div className='py-10 md:py-14 lg:py-16'>
       <p className='text-black dark:text-white text-5xl leading-[62px] text-center'>About</p>
       <p className='text-lg text-black dark:text-white py-5'>
-        Hi, I'm a Full-Stack Developer based in Mangalore, India. I create cool web applications using <b>ReactJs, Redux, Saga, Angular, TailwindCSS and Javascript in Front-End, NodeJs, ExpressJs, MongoDB, Postgres, Heroku and AWS in Back-End.</b> I enjoy creating things that live on internet.
+        Hi, I'm a Full-Stack Developer based out of Udupi, India. I create cool web applications using <b>ReactJs, Redux, Saga, Angular, TailwindCSS and Javascript in Front-End, NodeJs, ExpressJs, MongoDB, Postgres, Heroku and AWS in Back-End.</b> I enjoy creating things that live on internet.
       </p>
       <div className='flex items-center gap-2 md:gap-4 py-5'>
         <p className='text-8xl font-bold text-green-600 leading-[62px]'>2+</p>
