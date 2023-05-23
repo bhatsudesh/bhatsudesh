@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage';
 import ReactGA from "react-ga4";
 
 function App() {
-  ReactGA.initialize("G-V4FFK8JY2H");
+  ReactGA.initialize("G-HTYYSLGJTS");
   // Send pageview with a custom path
   ReactGA.send({ hitType: "pageview", page: "/", title: "Landing Page" });
 
