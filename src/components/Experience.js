@@ -25,7 +25,7 @@ const Experience = () => {
   ]
 
   return (
-    <section id="experience" className='py-10 md:py-14 lg:py-16'>
+    <section id="experience_section" className='py-10 md:py-14 lg:py-16'>
       <p className='text-black dark:text-white text-5xl leading-[62px] text-center'>Experience</p>
       <div className='py-6 md:py-9 lg:py-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10'>
         <div className={`${activeExperience === 1 && "border-b-4 border-green-600"} p-6 md:p-8 lg:p-10 bg-gray-200 dark:bg-gray-700 cursor-pointer rounded-md`} onClick={() => setActiveExperience(1)}>
