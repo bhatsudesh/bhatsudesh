@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import { Link } from 'react-scroll';
-import ReactGA from "react-ga4";
+// import ReactGA from "react-ga4";
 
 const Header = () => {
 
-  const sendEvent = (category, action, label) => {
-    // Send a custom event
-    ReactGA.event({
-      category: category,
-      action: action,
-      label: label, // optional
-      value: 1
-    });
-  };
+  // const sendEvent = (category, action, label) => {
+  //   // Send a custom event
+  //   ReactGA.event({
+  //     category: category,
+  //     action: action,
+  //     label: label, // optional
+  //     value: 1
+  //   });
+  // };
 
   const toggleMode = () => {
     if (localStorage.theme === undefined) {
