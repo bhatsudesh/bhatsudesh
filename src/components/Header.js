@@ -19,11 +19,11 @@ const Header = () => {
       document.documentElement.classList.add('dark')
     }
     localStorage.theme === 'light' ? localStorage.theme = 'dark' : localStorage.theme = 'light';
-    if (localStorage.theme === 'light') {
-      sendEvent('Button', 'Click', 'light_mode_click');
-    } else {
-      sendEvent('Button', 'Click', 'dark_mode_click');
-    }
+    // if (localStorage.theme === 'light') {
+    //   sendEvent('Button', 'Click', 'light_mode_click');
+    // } else {
+    //   sendEvent('Button', 'Click', 'dark_mode_click');
+    // }
     if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       document.documentElement.classList.add('dark')
     } else {
@@ -40,7 +40,7 @@ const Header = () => {
       <div className="flex justify-between items-center py-6 md:py-9 lg:py-11 text-black dark:text-white">
         <p className="text-xl md:text-3xl font-bold">Sudesh Bhat</p>
         <div className="flex gap-4 md:gap-6 lg:gap-8 items-center font-light text-sm md:text-base lg:text-lg">
-          <Link id="experience" onClick={() => sendEvent('Button', 'Click', 'experience_click')} to="experience_section" className="cursor-pointer" smooth={true} duration={1000}>Experience</Link>
+          <Link id="experience" to="experience_section" className="cursor-pointer" smooth={true} duration={1000}>Experience</Link>
           <a
             href="https://drive.google.com/file/d/1bd_lr7n0MK0RcDrZzA01V3DuOFr6CK2L/view?usp=share_link"
             target="_blank"
