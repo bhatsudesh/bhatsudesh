@@ -1,18 +1,7 @@
 import React from 'react';
-import ReactGA from "react-ga4";
-
 import sudesh from '../images/sudesh.JPG';
 
 const HeroSection = () => {
-  const sendEvent = (category, action, label) => {
-    // Send a custom event
-    ReactGA.event({
-      category: category,
-      action: action,
-      label: label, // optional
-      value: 1
-    });
-  };
   return (
     <>
       <div className='flex flex-col md:flex-row gap-5 justify-between items-center py-10 md:py-14 lg:py-16'>
@@ -25,7 +14,7 @@ const HeroSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button onClick={() => sendEvent('Button', 'Click', 'resume')} className='bg-green-600 py-2 px-4 text-white text-sm tracking-wide'>Download CV</button>
+              <button className='bg-green-600 py-2 px-4 text-white text-sm tracking-wide'>Download CV</button>
             </a>
             <a href="mailto:sudeshbhat2113@gmail.com">
               <button className='text-sm border border-black dark:border-white text-black dark:text-white tracking-wide py-2 px-8'>
